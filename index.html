@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Автоматизация - баня</title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Человек с последнего запуска: <b id="totalCount">0</b></p>
+
+    <input type="number" id="id" placeholder="Номер">
+    <input type="text" id="name" placeholder="Иванов И.И.">
+    <input type="button" value="Начать отсчет" onclick="AddClient();">
+
+    <br /><br />
+
+    <table id="clients" border="1" cellspacing="0" cellpadding="0">
+    </table>
+</body>
+</html>
